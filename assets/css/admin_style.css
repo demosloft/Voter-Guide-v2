@@ -1,0 +1,270 @@
+.dab_dashboard .page-breadcrumb {
+    background: none repeat scroll 0% 0% #FCFAFA;
+    padding: 2px 0px 0px 5px;
+    width: 100%;
+}
+form#dab_form .error {
+    color: red;
+}
+.main_form-3.dab-voder-guid .quednary {
+    gap: 6px;
+}
+
+.dab_dashboard .column {
+    float: left;
+    width: 29.33%;
+    padding: 12px;
+    height: 70px;
+    margin-right: 20px;
+}
+.dab_dashboard .team-member {
+    background: #21759B;
+    text-decoration: none;
+}
+
+.dab_dashboard .project{
+    background: #ce5858;
+    text-decoration: none;
+}
+.dab_dashboard .request-log{
+    background: #7DC267;
+    text-decoration: none;
+}
+.dab_dashboard .number{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 34px;
+}
+.dab_dashboard .desc{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+}
+p.dab-questions {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.main_form-3 {
+    width: 543px;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 auto;
+    color: #000;
+    font-family: arial;
+    background: #ebebeb;
+}
+.main_form-3 input {
+    width: 100%;
+    padding :0 15px;
+    border: 1px solid #ccc;
+    height: 32px;
+    font-size: 16px;
+    color: #000;
+    outline: none;
+    border-radius: 5px;
+}
+.main_form-3 select {
+    width: 100%;
+    padding :0 15px;
+    font-size: 16px;
+    background-color: #fff !important;
+    border: 1px solid #ccc;
+    height: 32px;
+    background: none;
+    color: #000 !important;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    border-radius: 5px;
+    color: #000;
+    background-image: linear-gradient(
+            45deg
+            , transparent 46%, #999 50%), linear-gradient(
+            135deg
+            , #999 42%, transparent 50%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
+    background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+}
+tr.photo input{
+    border: 0 !important	;
+}
+.rodio-btn span {
+    width: 36px;
+}
+
+.main_form-3 textarea {
+    width: 100%;
+    padding :15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    color: #000;
+    height: 73px;
+}
+.main_form-3 input:focus,.main_form-3 select:focus,.main_form-3 textarea:focus{
+    outline: none;
+}
+.main_form-3 ::placeholder{
+    color: #000;
+}
+.main_form-3 select:after {
+    content: "";
+    border-width: 5px;
+    position:absolute;
+    top: 0;
+    right: 10px;
+    border-color: transparent transparent #000 transparent;
+}
+.choose_title {
+    width: 130px;
+    align-self: center;
+    color: #000;
+    font-size: 16px;
+}
+.dab_choose_file {
+    display: flex;
+    height: 27px;
+    margin-top: 7px;
+}
+.dab_choose_file input {
+    border: none;
+}
+.rodio-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.rodio-btn input[type="radio"] {
+    width: 19px;
+}
+.content-in {
+    width:100px;
+    background: #fff;
+}
+td.photo-insert {
+    display: flex;
+    align-items: center;
+}
+.checkbox-in {
+    display: flex;
+    align-items: center;
+}
+.checkbox-in input {
+    width: 18px;
+    height: 17px;
+}
+td input[type="button"] {
+    max-width: 200px;
+    background: #fff;
+    margin: 0 auto;
+}
+img#dab_image {
+    width: 100%;
+}
+.main_form-3 input[type="radio"] {
+    height: 15px;
+    width: 15px !important;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #0000;
+}
+.main_form-3  input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+}
+.main_form-3 input[type=radio]:checked::before {
+    height: 15px;
+    width: 15px;
+    background: #000;
+    position: relative;
+    top: -4px;
+    left: -4px;
+}
+.dab-radio {
+    width: 100%;
+    float: left;
+    padding-bottom: 5px;
+    padding-left: 20%;
+}
+td.photo-insert .true_pre_image {
+    width: 80px !important;
+}
+td.photo-insert .multi-upload-medias a img {
+    width: 80px;
+}
+.dab-voder-guid .multi-upload-medias ul {
+    width: 94px;
+}
+.dab-voder-guid .multi-upload-medias {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+}
+.dab-voder-guid .multi-upload-medias {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dab-voder-guid .multi-upload-medias .button{
+    margin:0 5px 0 0;
+}
+a.button.dab-remove-row{
+    display:none;
+}
+input.field_position.dabquestionnaire {
+    width: 15% !important;
+}
+table#repeatable-fieldset-one {
+    max-width: 720px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+#questions_form .dab_field input {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 0px;
+    height: 35px;
+}
+input.rwo_field.dabquestionnaire {
+    width: 15%!important;
+}
+#questions_form input.dabquestionnaire {
+    width: 58%;
+    border-radius: 0;
+    height: 35px;
+}
+#questions_form select.select_type {
+    width: 25%;
+    border-radius: 0;
+    height: 35px;
+    float: right;
+}
+#questions_form .dab_field input.dabquestionnaire {
+    width: 100%;
+}
+form#questions_form {
+    max-width: 600px;
+}
+form#questions_form a#add-row{
+    float: right;
+    padding: 5px 25px;
+    border-radius: 0;
+}
+form#questions_form button.button{
+    padding: 5px 25px;
+    border-radius: 0;
+}
+form#questions_form a#add-row:hover, form#questions_form button.button:hover{
+    background:#2271b1;
+    color:#fff;
+}
+
+#dab_main_form .dab-radio.dab-checkbox {
+    padding-left: 20% !important;
+}

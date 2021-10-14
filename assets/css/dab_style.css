@@ -1,0 +1,982 @@
+@media only screen and (min-width:768px){
+    .main_form-dab table.bottom-part.extra-gap tr td {
+        padding-right: 0px !important;
+    }
+    .main_form-dab td.title.photo-part label {
+        font-size: 20px !important;
+    }
+    table.bottom-part.extra-gap{
+        margin-top: -62px !important;
+    }
+    .main_form-dab, .dab_answer_page {
+        margin: 50px 0px !important;
+    }
+    .main_form-dab table.top-part tbody {
+        padding-bottom: 75px !important;
+    }
+    .dab_answer_page table tr td[width="65%"] {
+        padding-left: 55px;
+    }
+    .main_form-dab input[type="submit"]{
+        font-size: 20px !important;
+        line-height: 20px !important;
+    }
+}
+@media only screen and (max-device-width: 1023px) and (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait){
+    .dab_answer_page table tr td[width="65%"] {
+        padding-left: 8px;
+    }
+    .dab_answer_page table tr:nth-child(1) td {
+        display: grid !important;
+        width: auto;
+    }
+    .dab_answer_page table tr td[width="35%"] {
+        margin-bottom: 20px;
+    }
+    .dab_answer_page table tr td[width="35%"] {
+        padding: 60px 60px 0 60px !important;
+    }
+    .dab_answer_page > img {
+        height: 65px !important;
+    }
+}
+@media only screen and (max-width:767px){
+    table.top-part tbody, table.bottom-part tbody{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .dab_answer_page table tr td[width="65%"] {
+        padding: 20px 20px 0 20px!important;
+    }
+
+    .dab_answer_page table tr td[width="35%"] {
+        padding: 60px 20px 0 20px!important;
+    }
+    .dab_answer_page tr.answer_dab td {
+        padding: 20px 20px 60px 20px!important;
+    }
+    .main_form-dab input[type="submit"],.main_form-dab td.title.photo-part label {
+        font-size: 15px !important;
+        line-height: 15px !important;
+    }
+    table.top-part tbody {
+        padding-bottom: 0px !important;
+    }
+    .main_form-dab table.top-part tr {
+        display: grid;
+    }
+    .main_form-dab .content-in {
+        margin-top: 0  !important;
+    }
+    .main_form-dab td.title.photo-part {
+        width: auto !important;
+    }
+    .main_form-dab table.bottom-part tr td {
+        width: inherit !important;
+    }
+    .main_form-dab table.top-part tr td{
+        padding-right: 8px !important;
+    }
+    .main_form-dab table.top-part tr td.title.photo-part {
+        padding-right: 8px !important;
+        padding-bottom: 8px !important;
+        padding-top: 20px !important;
+    }
+    .main_form-dab .quednary p, .main_form-dab .dab-radio.dab-checkbox span,.dab_answer_page tr.answer_dab .quednary p {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .main_form-dab td[width="20%"], .main_form-dab td:nth-child(1):not(last-child), .quednary strong {
+        font-size: 22px !important;
+        line-height: 25px !important;
+    }
+    .dab_answer_page p.dabans.textarea, .dab_answer_page tr.answer_dab .select_custa p, .dab_answer_page tr.answer_dab p.dabans, .dab_answer_page .dab-radio.dab-checkbox ul li {
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+    .dab_answer_page table tr:nth-child(1) td {
+        display: grid !important;
+        width: auto;
+    }
+    .dab_answer_page table tr td[width="35%"] {
+        margin-bottom: 20px;
+    }
+    .dab_answer_page table {
+        padding-top: 30px !important;
+        padding-bottom: 14px !important;
+    }
+    .dab_answer_page {
+        margin: 50px 0px !important;
+    }
+    .dab_answer_page table tr td[width="65%"] {
+        font-size: 18px!important;
+        line-height: 24px!important;
+    }
+    .dab_answer_page > img {
+        height: 55px !important;
+    }
+    .dab_answer_page p.dabans.textarea:after {
+        content: url("../img/small-top-quote.png") !important;
+        top: -24px!important;
+        left: -12px!important;
+    }
+    .dab_answer_page p.dabans.textarea:before {
+        content: url("../img/small-bottom-quote.png") !important;
+        right: -13px!important;
+        bottom: -33px!important;
+    }
+    .dab_answer_page p.dabans.textarea{
+        padding: 30px 25px!important;
+    }
+}
+@media only screen and (max-device-width: 823px)  and (orientation: landscape){
+    .dab_answer_page table tr td[width="65%"] {
+        padding: 20px 30px 0 30px!important;
+    }
+
+    .dab_answer_page table tr td[width="35%"] {
+        padding: 60px 30px 0 30px!important;
+    }
+    .dab_answer_page tr.answer_dab td {
+        padding: 20px 30px 60px 30px!important;
+    }
+    .dab_answer_page table tr:nth-child(1) td {
+        display: grid !important;
+        width: auto;
+    }
+    .dab_answer_page table tr td[width="35%"] {
+        margin-bottom: 20px;
+    }
+    .dab_answer_page table {
+        padding-top: 30px !important;
+        padding-bottom: 14px !important;
+    }
+    .dab_answer_page {
+        margin: 50px 0px !important;
+    }
+    .dab_answer_page > img {
+        height: 58px !important;
+    }
+}
+/*Media query ends*/
+.dab_answer_page{
+    max-width: var(--responsive--aligndefault-width);
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.dab_answer_page table tr td[width="65%"] label {
+    margin: 0px !important;
+}
+.dab_answer_page table tr td[width="65%"] b {
+    font-weight: 600 !important;
+}
+.main_form-dab table, .main_form-dab table td, .main_form-dab table th{
+    border: 0px !important;
+}
+.main_form-dab table.top-part input, .main_form-dab table.top-part select{
+    margin-bottom: 14px;
+}
+.main_form-dab table.top-part tr td{
+    padding: 0px 08px;
+    padding-right: 30px;
+}
+.main_form-dab table.top-part tr:first-child td {
+    padding-top: 0px;
+}
+.main_form-dab td.title label {
+    margin: 0 !important;
+    padding: 08px 0px 16px 0 !important;
+}
+.main_form-dab.serach-dab {
+    padding-bottom: 50px;
+}
+.main_form-dab input[type="submit"]:hover {
+    text-decoration: none;
+}
+.main_form-dab table.bottom-part.no-extra-gap{
+    margin:0px;
+}
+/*Checkbox css starts*/
+.dab-checkbox input[type="checkbox"]:active, .dab-checkbox  input[type="checkbox"]:checked:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.dab-checkbox input[type="checkbox"]:checked {
+    background-color: #2cdf00 ;
+    border: 1px solid green;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+    color: white;
+}
+
+.dab-checkbox input[type="checkbox"]:checked:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: -2px;
+    left: 3px;
+    color: white;
+}
+.dab-checkbox input[type="checkbox"]:checked::before{
+    content: unset !important;
+}
+.dab-checkbox input[type="checkbox"]{
+    -webkit-appearance: none;
+    background-color: #d2dad0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+}
+.main_form-dab .quednary {
+    display: block!important;
+}
+.main_form-dab .quednary strong {
+    width: auto !important;
+    font-weight: normal;
+}
+/*Checkbox css ends*/
+.main_form-dab table.bottom-part tr td{
+    width: auto ;
+}
+.main_form-dab td.title.photo-part {
+    width: 30%;
+}
+.main_form-dab form .error {
+    font-size: 18px !important;
+}
+.main_form-dab img#searchdab {
+    display: none !important;
+}
+.dabserch_button {
+    text-align: center;
+}
+.main_form-dab table.bottom-part tr {
+    display: grid;
+}
+.main_form-dab table.top-part input#choose_file {
+    display: none;
+}
+.main_form-dab table.top-part tr td.title {
+    display: grid;
+}
+.main_form-dab table.top-part tr td.photo-part {
+    display: table-cell;
+}
+.main_form-dab td.title.photo-part label {
+    cursor: pointer;
+    text-align: center;
+    margin: auto !important;
+    display: block;
+    box-shadow: none !important;
+    background: #2cdf00 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    width: max-content !important;
+    padding: 22px 60px !important;
+    color: #fff !important;
+    height: max-content;
+    font-weight: bold;
+    margin-top: 26px !important;
+}
+.main_form-dab .content-in {
+    margin-bottom: 25px;
+}
+.main_form-dab table.bottom-part tr td{
+    padding: 6px 08px !important;
+}
+.main_form-dab table.top-part tr td.title.photo-part {
+    padding-right: 0px;
+}
+.main_form-dab .quednary strong, .main_form-dab .quednary p {
+    padding: 6px 0px !important;
+}
+.main_form-dab tr {
+    margin-bottom: 10px;
+}
+.main_form-dab input[type="submit"]{
+    box-shadow: none !important;
+    background: #2cdf00 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    width: max-content !important;
+    padding: 22px 60px !important;
+    color: #fff !important;
+    height: max-content !important;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 26px !important;
+}
+#dab_main_form {
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #000;
+}
+form#dab_form .error {
+    color: red;
+}
+.dab_error.error {
+    color: red;
+}
+.dab-radio.dab-checkbox label {
+    position: absolute;
+    top: 20px;
+}
+.dab-radio.dab-checkbox {
+    position: relative;
+}
+.main_form-dab {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.main_form-dab_res {
+    max-width: 800px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.main_form-dab input:focus, .main_form-dab select:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: 0 0 57px 0 rgb(0 0 0 / 15%) !important;
+}
+.main_form-dab .dabserch_button {
+    position: relative;
+}
+.main_form-dab.serach-dab img {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    width: 25px;
+}
+#dab_main_form input {
+    color: #000;
+    outline:none;
+    border-radius: 5px;
+}
+.main_form-dab td[width="20%"], .main_form-dab td:nth-child(1):not(last-child),.quednary strong, .main_form-dab table.top-part tr td.title label {
+    font-size: 25px;
+    line-height: 25px;
+}
+#dab_searchform select#dabstate {
+    border-radius: 0px;
+    border: unset;
+}
+#dab_searchform label.error {
+    font-size: 17px;
+    color: red !important;
+}
+#dab_main_form select {
+    width: 100%;
+    background-color: #fff !important;
+    background: none;
+    outline: :none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#dab_main_form tr.photo input{
+    border: 0 !important  ;
+}
+#dab_main_form .rodio-btn span {
+    width: 36px;
+}
+#dab_main_form textarea {
+    width: 100%;
+    padding :15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    color: #000;
+    height: 73px;
+}
+#dab_main_form input:focus,#dab_main_form select:focus,#dab_main_form textarea:focus{
+    outline: none;
+}
+#dab_main_form  #dab_main_form select:after {
+    content: "";
+    border-width: 5px;
+    position:absolute;
+    top: 0;
+    right: 10px;
+    border-color: transparent transparent #000 transparent;
+
+}
+#dab_main_form .choose_title {
+    width: 130px;
+    align-self: center;
+    color: #000;
+    font-size: 16px;
+}
+#dab_main_form .choose_file {
+    display: flex;
+    height: 27px;
+    margin-top: 7px;
+}
+#dab_main_form .choose_file input {
+    border: none;
+}
+#dab_main_form .rodio-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+#dab_main_form .rodio-btn input[type="radio"] {
+    width: 19px;
+}
+#dab_main_form .content-in {
+    background: #fff;
+}
+#dab_main_form td.photo-insert {
+    display: flex;
+    align-items: center;
+}
+#dab_main_form .checkbox-in {
+    display: flex;
+    align-items: center;
+}
+#dab_main_form .checkbox-in input {
+    width: 18px;
+    height: 17px;
+}
+#dab_main_form td input[type="button"] {
+    max-width: 200px;
+    background: #fff;
+    margin: 0 auto;
+}
+#dab_main_form img#blah {
+    width: 100%;
+}
+#dab_main_form img#blah {
+    width: 100%;
+}
+form#dab_form td , form#dab_form th , form#dab_form tr , form#dab_form tbody , form#dab_form table{
+    border:0 !important;
+}
+.dab-radio {
+    width: 100%;
+    float: left;
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+#dab_main_form .dab-radio input[type="radio"]{
+    width: 19px;
+    width: 19px;
+    padding: 0 !important;
+    height: 19px;
+    border-radius: 50%;
+}
+
+.dab-radio {
+    width: 100%;
+    float: left;
+    padding-bottom: 3px;
+}
+.dab-radio.dab-checkbox input[type="checkbox"] {
+    width: 17px !important;
+    height: 17px !important;
+    padding:0;
+    margin-top: 0px;
+}
+#dab_main_form .dab-radio.dab-checkbox span {
+
+}
+form#dab_form p {
+    margin: 0 0 2px !important;
+}
+form#dab_form table {
+    margin: 0;
+    font-size:15px;
+}
+.main_form-dab table {
+    margin: 0 0 25px;
+}
+.main_form-dab table.top-part tbody, .main_form-dab table.bottom-part tbody {
+    display: block;
+    padding: 0px 55px;
+}
+.main_form-dab {
+    height: auto;
+    border-radius: 5px;
+    padding: 30px 0 14px 0;
+    margin: 0 auto;
+    color: #000;
+    background: #fff;
+    box-shadow: 0 0 79px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.main_form-dab input[type="email"]{
+    text-transform: initial !important;
+}
+.main_form-dab input, .main_form-dab textarea {
+    width: 100%;
+    padding: 0 20px;
+    text-transform: capitalize;
+    height: 60px !important;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+    outline: none;
+    background: #fff;
+    border: 0px !important;
+    border-radius: 7px !important;
+    box-shadow: 0 0 57px 0 rgba(0, 0, 0, 0.15) !important;
+}
+.main_form-dab .quednary p, .main_form-dab .dab-radio.dab-checkbox span{
+    font-size: 20px;
+    line-height: 20px;
+}
+.main_form-dab input::placeholder, .main_form-dab textarea::placeholder{
+    font-size: 20px;
+    line-height: 20px;
+    color:#747474 !important;
+}
+.main_form-dab input[type=text]:focus{
+    box-shadow: 0 0 57px 0 rgba(0, 0, 0, 0.15);
+}
+.main_form-dab select {
+    background-image: url("../img/dropdown-arrow-blue.png") !important;
+    background-position: calc(100% - 20px) calc(15px + 2px), calc(100% - 15px) calc(18px + 2px), 100% 0 !important;
+    background-size: 25px 25px, 5px 5px, 1.5em 1.5em !important;
+    text-transform: capitalize;
+    box-shadow: 0 0 57px 0 rgba(0, 0, 0, 0.15);
+    width: 100%;
+    padding :0 20px;
+    font-size: 20px!important;
+    line-height: 20px!important;
+    background-color: #fff !important;
+    height: 60px;
+    background: none;
+    color: #747474 !important;
+    outline: :none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    border-radius: 5px !important;
+    border: none !important;
+    background-repeat: no-repeat;
+}
+.main_form-dab td input[type="button"] {
+    max-width: 200px;
+    background: #fff;
+    margin: 0 auto;
+}
+/*anser sheet*/
+.dab_answer_page .dab-radio.dab-checkbox ul li {
+    margin: 0px;
+}
+.dab_answer_page p.dabans.textarea:after {
+    content: url("../img/top-quote.png");
+    position: absolute;
+    top: -35px;
+    left: -20px;
+}
+.dab_answer_page p.dabans.textarea:before {
+    content: url("../img/bottom-quote.png");
+    position: absolute;
+    right: -16px;
+    bottom: -44px;
+}
+.dab_answer_page p.dabans.textarea {
+    padding: 50px;
+    border: 1px solid rgb(0, 136, 255);
+    margin: 50px 0px;
+    position: relative;
+    border-radius: 5px;
+    color: #ababab !important;
+}
+.dab_answer_page .quednary {
+    margin-top: 14px !important;
+    margin-bottom: 7px;
+}
+.dab_answer_page .dab-radio.dab-checkbox ul {
+    list-style: none;
+    margin: 0px;
+    padding:0px !important;
+}
+.dab_answer_page .dab-radio.dab-checkbox {
+    margin: 0px 0 0 30px !important;
+}
+.dab_answer_page p.dabans {
+    position: relative;
+    line-height: inherit !important;
+}
+.dab_answer_page p.dabans:not(.dab_answer_page p.dabans.textarea) {
+    margin-left: 30px;
+}
+.dab_answer_page p.dabans:not(.dab_answer_page p.dabans.textarea):before, .dab_answer_page .dab-radio.dab-checkbox:before {
+    content: "";
+    background: #2cdf00;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    margin-left: -30px !important;
+    border-radius: 50px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.dab_answer_page tr.answer_dab .quednary p {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.dab_answer_page tr.answer_dab .select_custa p, .dab_answer_page tr.answer_dab  p.dabans, .dab_answer_page .dab-radio.dab-checkbox ul li {
+    font-size: 18px;
+    line-height: 24px;
+}
+.dab_answer_page .dab-radio.dab-checkbox ul li {
+    display: initial;
+}
+.dab_answer_page {
+    position: relative;
+}
+.dab_answer_page > img {
+    height: 95px;
+    right: 0px;
+    margin-right: 3.5%;
+    position: absolute;
+}
+.dab_answer_page table tr td[width="65%"],.dab_answer_page table tr td[width="65%"] label {
+    font-size: 25px;
+    line-height: 25px;
+}
+.dab_answer_page table tr td[width="65%"] label {
+    font-weight: 600;
+}
+.dab_answer_page table tr td[width="65%"] {
+    font-weight: 500;
+}
+.dab_answer_page img#output-img {
+    width: 100%;
+    margin: 0 auto !important;
+    object-fit: contain;
+    border-radius: 6px;
+}
+.dab_answer_page p {
+    margin: 0;
+}
+.dab_answer_page table tr, .dab_answer_page table td, .dab_answer_page table th {
+    border: 0;
+}
+.dab_answer_page  table{
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #000;
+    background: #fff;
+    box-shadow: 0 0 79px 0 rgb(0 0 0 / 12%) !important;
+    border: 0px!important;
+}
+.dab_answer_page table tr td[width="65%"] {
+    padding: 60px 60px 0 55px;
+}
+
+.dab_answer_page table tr td[width="35%"] {
+    padding: 60px 0 0 60px;
+}
+.dab_answer_page tr.answer_dab td {
+    padding: 20px 60px 60px 60px;
+}
+.dab_answer_page table tr td {
+    padding: 0px;
+}
+.dab_answer_page  .quednary {
+    align-items: center;
+}
+.dab_answer_page strong {
+    margin-bottom: 15px;
+}
+.dab_answer_page  select {
+    width: 100%;
+    background-color: #fff;
+    opacity: 1;
+    text-transform: unset;
+    border-radius: 4px;
+    background-image: unset !important;
+}
+.dab_answer_page  input[type="radio"] , .dab_answer_page  input[type="checkbox"]{
+    background-color: #fff;
+    opacity: 1;
+    text-transform: unset;
+}
+.dab_answer_page  input[checked]::before{
+    background: red;
+}
+.dab_answer_page input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.dab_answer_page  span.dab-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+
+/* When the checkbox is checked, add a blue background */
+.dab_answer_page input[type="checkbox"]::checked  span.dab-checkbox {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.dab_answer_page  span.dab-checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.dab_answer_page tr.answer_dab .dab-radio input[type="checkbox"]:checked ~ .dab-checkbox:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.dab_answer_page tr.answer_dab span.dab-checkbox:after {
+    left: 6px;
+    top: 2px;
+    width: 6px;
+    height: 11px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(
+            45deg
+    );
+    -ms-transform: rotate(45deg);
+    transform: rotate(
+            45deg
+    );
+}
+.dab_answer_page tr.answer_dab .dab-radio input[type="checkbox"]:checked ~ .dab-checkbox{
+    background-color: #000;
+}
+.dab_answer_page  .dab-radio.dab-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 33px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left:30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.dab_answer_page tr.answer_dab input[type="checkbox"]{
+    display: none;
+}
+
+/*radio*/
+.dab_answer_page tr.answer_dab input[type="radio"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.dab_answer_page  .dab-radio{
+    display: block;
+    position: relative;
+    padding-left: 33px;
+    margin-bottom: 9px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 110px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.dab_answer_page  tr.answer_dab .dab-radio .dab-checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.dab_answer_page  tr.answer_dab  .dab-radio input[type="radio"]:checked ~ .dab-checkbox{
+    background-color: #fff;
+}
+.dab_answer_page tr.answer_dab .dab-radio input[type="radio"]:checked ~ .dab-checkbox:after {
+    display: block;
+    background-color: #000;
+}
+
+/* Style the checkmark/indicator */
+.dab_answer_page tr.answer_dab span.dab-checkbox:after {
+    left: 2px;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.dab_answer_page tr.answer_dab input[type="radio"] {
+    display: none;
+}
+/* Search result  */
+
+.dab-serch-result-cst  {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px 11px;
+    margin: 0 auto;
+    color: #000;
+    background: #EBEBEB;
+    border: 0;
+}
+.dab-serch-result-cst img {
+    max-width: 100px;
+    width: 100%;
+    margin: 0;
+    height: 100px;
+    object-fit: scale-down;
+    border: 0;
+    transition:.5s;
+}
+.dab-serch-result-cst td, .dab-serch-result-cst th, .dab-serch-result-cst tr, .dab-serch-result-cst tbody, .dab-serch-result-cst table {
+    border: 0 !important;
+}
+.dab-serch-result-cst-tb h6 {
+    text-align: left;
+    font-size: 20px;
+}
+.dab-serch-result-cst-tb h3.legislator {
+    font-size: 17px;
+}
+.dab-serch-result-cst-tb h6 , .dab-serch-result-cst-tb  h3.legislator{
+    margin: 0;
+}
+table.dab-serch-result-cst-tb td {
+    font-size: 17px;
+    line-height: 19px;
+}
+table.dab-serch-result-cst-tb  tbody:nth-child(2) tr:nth-child(odd) {
+    background: #fff;
+}
+table.dab-serch-result-cst-tb  tbody:nth-child(2) tr:nth-child(even) {
+    background: #ccc;
+}
+table.dab-serch-result-cst-tb tr{
+    border-radius:15px;
+}
+table.dab-serch-result-cst-tb th {
+    padding-bottom: 18px !important;
+}
+table.dab-serch-result-cst-tb tr:nth-child(1){
+    border: 0 !important;
+}
+.main_form-dab.serach-dab table, .main_form-dab.serach-dab tr, .main_form-dab.serach-dab td {
+    border: 0;
+}
+.main_form-dab  input{
+    border:0 !important;
+}
+.main_form-dab.serach-dab input#dab_search {
+    height: unset;
+    color: #000;
+}
+.dabcheckbox {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    top: 6px;
+    position:relative;
+    margin-right: 15px;
+}
+.dabcheckboxchecked{
+    width: 15px;
+    height: 15px;
+    position:relative;
+    background: #fff;
+    top: 6px;
+    margin-right: 15px;
+
+}
+.dabcheckboxchecked:after {
+    content: "✔";
+    display: block;
+    left: 3px;
+    top: -6px;
+    position: absolute;
+    width: 7px;
+    height: 13px;
+    border-top: 0;
+    border-left: 0;
+    transform: rotate(
+            13deg
+    );
+}
+div#dabsucess {
+    text-align: center;
+    background: #DFF2BF;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+.dabredio.disabled {
+    width: 15px;
+    height: 15px;
+    top: 6px;
+    position:relative;
+    background: #fff;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.dabrediochecked.disabled {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+    background: #fff;
+    top: 6px;
+    position: relative;
+    border-radius: 50%;
+    border: 4px solid #333;
+}
+.dab-radio.dab-checkbox, .dab-radio.dab-redio {
+    display: flex !important;
+    padding-left: 0;
+}
+.dab-radio.dab-checkbox {
+    padding-left: 0 !important;
+}
+.main_form-dab .select_cust {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+table.dab-serch-result-cst-tb h6 {
+    font-size: 14px !important;
+    margin: 0;
+}
+.main_form-dab .no-result {
+    background: #fff;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 23px;
+    border-radius: 4px;
+    font-size: 19px;
+}
